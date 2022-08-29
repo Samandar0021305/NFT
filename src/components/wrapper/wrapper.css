@@ -1,0 +1,26 @@
+.wrapper{
+    background: url("../../img/background-wrapper.png")   #0D0D0E;
+    height: 130vh;
+    width: 100%;
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-position: top 0 right 0px;
+}
+
+@media (max-width:900px){
+    .wrapper{
+        height: 70vh;
+    }
+}
+
+@media (max-width:360px){
+    .wrapper{
+        height: 50vh;
+    }
+}
+
+@media (max-width:1144px){
+    .wrapper{
+        height: 90vh;
+    }
+}

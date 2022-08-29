@@ -1,0 +1,25 @@
+.container{
+    padding: 0 90px;
+    margin: 0 auto;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+@media (max-width:500px){
+    .container{
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+}
+
